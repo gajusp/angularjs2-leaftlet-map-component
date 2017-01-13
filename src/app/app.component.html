@@ -1,9 +1,11 @@
 <h1>
   {{title}}
 </h1>
-<br>
 <div id="mapContinerDiv"
-    	style="position: relative;width: 100%; height: 750px;">
-  <app-leaflet-map>
+    	style="position: relative;width: 100%; height: 720px;">
+  <app-leaflet-map 
+                [longitude]="78.37604" [latitude]="17.44692"
+                [zoom]="3" [minZoom]="3" [maxZoom]="19"
+                >
   </app-leaflet-map>
 </div>

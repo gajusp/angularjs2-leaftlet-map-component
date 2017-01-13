@@ -5,18 +5,21 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { LeafletMapComponent } from './leaflet-map/leaflet-map.component';
+import { GeoLocationService } from "./services/geo-location.service";
+import { NavigatorComponent } from './navigator/navigator.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LeafletMapComponent
+    LeafletMapComponent,
+    NavigatorComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [GeoLocationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
