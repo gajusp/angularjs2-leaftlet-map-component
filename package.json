@@ -27,7 +27,6 @@
     "rxjs": "^5.0.1",
     "ts-helpers": "^1.1.1",
     "zone.js": "^0.7.2"
-   
   },
   "devDependencies": {
     "@angular/compiler-cli": "^2.3.1",
@@ -46,5 +45,17 @@
     "ts-node": "1.2.1",
     "tslint": "^4.0.2",
     "typescript": "~2.0.3"
-  }
+  },
+  "description": "This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.24.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gajusp/angularjs2-leaftlet-map-component.git"
+  },
+  "keywords": [],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/gajusp/angularjs2-leaftlet-map-component/issues"
+  },
+  "homepage": "https://github.com/gajusp/angularjs2-leaftlet-map-component#readme"
 }
